@@ -1,13 +1,13 @@
 body {
-  background-color: #fff;
+  background-color: #1F2B2D;
   padding:50px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color:#595959;
+  color:#FFFFFF;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#FFFFFF;
   margin:0 0 20px;
 }
 
@@ -25,12 +25,12 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#FFFFFF;
   font-weight: 500;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#FFFFFF;
   font-weight: 500;
 }
 
@@ -96,7 +96,7 @@ dt {
 }
 
 th {
-  color:#444;
+  color:#FFFFFF;
 }
 
 img {
@@ -166,7 +166,7 @@ header ul li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#1F2B2D;
 }
 
 section {
