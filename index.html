@@ -1,201 +1,41 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Herald</title>
+	<head>
+		<title>Eventually by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Herald Alpha</h1>
-        <p>Herald Slogan</p>
-        <p class="view"><a href="https://github.com/onuryork">by @onuryork<small>Onur Yörük</small></a></p>
-        <ul>
-          <li><a target="_blank" href="https://github.com/onuryork/Herald">Download <strong>Herald SDK</strong></a></li>
-          <li><a target="_blank" href="">Download<strong>Herald Client</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>Herald</h1>
+		<!-- Header -->
+			<header id="header">
+				<h1>Herald</h1>
+				<p>From now on you will be notified live<br />
+				as soon as you have a new user in your application</p>
+			</header>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at vehicula sapien. Etiam nec venenatis mauris. Etiam non augue porta, mollis lorem ac, malesuada turpis. Aenean at fermentum enim, eu iaculis magna. Pellentesque tempus, lorem sed convallis aliquam, ipsum magna varius nibh, quis aliquam libero odio vitae mi.</p>
+		<!-- Signup Form -->
+			<form id="signup-form" method="post" action="#">
+				<input type="email" name="email" id="email" placeholder="Email Address" />
+				<input type="submit" value="Sign Up" />
+			</form>
 
-        <p>Cras congue dignissim congue. Quisque sodales,<br>
-        in condimentum luctus, erat sapien ultricies sapien, non varius augue velit ullamcorper est.</p>
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon brands fa-apple"><span class="label">App Store</span></a></li>
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy;Onur Yörük.</li><li></li>
+				</ul>
+			</footer>
 
-        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
 
-        <p> At vero eos et accusam et justo duo<br><br>
-        dolores et ea rebum.</p>
-
-        <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-
-        <h2>Documentation</h2>
-
-        <p>Consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum:</p>
-
-        <ul>
-          <li>Zzril delenit augue duis dolore te feugait nulla facilisi</li>
-          <li>Lorem ipsum dolor sit amet, consectetuer adipiscing</li>
-          <li>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</li>
-          <li>Ut wisi enim ad minim veniam, quis nostrud exerci tation</li>
-          <li>Ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</li>
-          <li>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</a></li>
-        </ul>
-
-        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id:</p>
-
-        <p>Quod mazim placerat facer possim assum.</p>
-
-        <img src="HeraldSDK.png" alt="Logo">
-
-        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-
-        <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
-
-        <p>Nam liber tempor cum</p>
-
-        <h2>Consequat, vel illum dolore eu feugiat</h2>
-
-        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation:</p>
-
-        <ul>
-          <li>Liber tempor</li>
-          <li>Consectetuer adipiscing</li>
-          <li>Ullamcorper suscipit</li>
-        </ul>
-
-        <p>Quod mazim placerat facer possim assum.:</p>
-
-        <ol>
-          <li>
-            <p>In condimentum luctus, erat sapien ultricies sapien, non varius augue velit ullamcorper est.</p>
-
-            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
-            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
-            sit amet velit.</p>
-          </li>
-          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-        </ol>
-
-        <p>Suspendisse id sem consectetuer libero <strong>in</strong> libero luctus adipiscing?</p>
-
-        <ol>
-          <li>
-            <p>import Herald</p>
-
-            <pre><code>import Herald</code></pre>
-          </li>
-          <li>
-            <p>Send Notification</p>
-
-            <pre><code>Herald.push(to: "be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2")</code></pre>
-          </li>
-        </ol>
-
-        <p>Suspendisse id sem consectetuer</p>
-
-        <dl>
-          <dt>Cras congue dignissim</dt>
-          <dd>Lorem Costum kops</dd>
-          <dt>Itere plops mantas</dt>
-          <dd>Saya mau makan</dd>
-        </dl>
-
-        <h2>Erat sapien ultricies sapien</h2>
-
-        <p>Zzril delenit augue duis dolore <code>code</code> Lorem ipsum</p>
-
-        <pre><code>def robot_invasion
-  puts("robot " * 1000)
-end
-</code></pre>
-
-        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.</p>
-
-        <p>Cras congue dignissim amat loremp?</p>
-
-        <pre><code>&lt;div class="footer"&gt;
-    &amp;copy; 2004 Foo Corporation
-&lt;/div&gt;
-</code></pre>
-
-        <h2>Et accusam et justo duo dolores</h2>
-
-        <p>Itere plops mantas:</p>
-
-        <pre>             ,-.
-    ,     ,-.   ,-.
-   / \   (   )-(   )
-   \ |  ,.&gt;-(   )-&lt;
-    \|,' (   )-(   )
-     Y ___`-'   `-'
-     |/__/   `-'
-     |
-     |
-     |    -hrr-
-  ___|_____________
-</pre>
-
-        <h2>Cras congue dignissim congue. Quisque sodales</h2>
-
-        <p>Stet clita kasd gubergren, no sea takimata sanctus est:</p>
-
-        <blockquote>
-        <p>Et accusam et justo duo dolores.</p>
-        </blockquote>
-
-        <p>Suspendisse id sem consectetuer libero:</p>
-
-        <blockquote>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at vehicula sapien. Etiam nec venenatis mauris. Etiam non augue porta, mollis lorem ac, malesuada turpis. Aenean at fermentum enim, eu iaculis magna. Pellentesque tempus...</p>
-
-        <p>Aenean at fermentum enim, eu iaculis magna.<br>
-        Pellentesque tempus, lorem sed convallis aliquam, ipsum magna varius nibh, quis aliquam libero odio vitae mi.<br>
-        Lorem ipsum dolar imat banam<br>
-        Stet ras congues dungissim</p>
-        </blockquote>
-
-        <h2>Justo duo dolores</h2>
-
-        <table>
-          <tbody>
-        <tr>
-            <th>ID</th>
-        <th>Name</th>
-        <th>Rank</th>
-          </tr>
-          <tr>
-            <td>1</td>
-        <td>Tom Preston</td>
-        <td>Great</td>
-          </tr>
-          <tr>
-            <td>2</td>
-        <td>Albert Jackson</td>
-        <td>Awesome</td>
-          </tr>
-        </tbody>
-        </table>
-
-        <h2>Aenean at fermentum enim, eu iaculis magna.</h2>
-
-        <p>Cras congue dignissim amat <a href="http://google.com/" title="Google">Google</a> Lorem tenne<br>
-        <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/onuryork">Onur Yörük</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
+	</body>
 </html>
